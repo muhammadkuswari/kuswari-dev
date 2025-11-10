@@ -24,7 +24,7 @@ const navbarItems = computed<NavigationMenuItem[]>(() => [
 
 <template>
   <!-- navbar -->
-  <UHeader>
+  <UHeader mode="drawer">
     <template #title>
       <h1 class="text-primary">kuswari.</h1>
     </template>
